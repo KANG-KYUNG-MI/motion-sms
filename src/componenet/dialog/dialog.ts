@@ -16,6 +16,7 @@ export interface TextData {
   readonly title: string;
    readonly body: string;
 }
+
 export class InputDialog extends BaseComponent<HTMLElement> implements Composable {
 
     closeListener?: onCloseListener;
