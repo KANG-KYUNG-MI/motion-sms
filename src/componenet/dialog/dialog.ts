@@ -25,7 +25,7 @@ export class InputDialog extends BaseComponent<HTMLElement> implements Composabl
     constructor() {
         super(`<dialog class="dialog">
                <div class= "dialog_container">
-               <button class="close">*</button>
+               <button class="close">Cancek</button>
                <div id="dialog_body">
                
                </div>
