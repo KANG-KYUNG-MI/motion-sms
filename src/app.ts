@@ -39,15 +39,15 @@ class App {
             (input: TextSectionInput) => new TodoComponent(input.title, input.body));
 
             
-    // For demo :)
-    this.page.addChild(new ImageComponent('Image Title', 'https://picsum.photos/8 00/400'));
-    this.page.addChild(new VideoComponent('Video Title', 'https://youtu.be/D7cwvvA7cP0'));
+    //For demo :)
+    this.page.addChild(new ImageComponent('Image Title',  'https://picsum.photos/500/250'));
+    this.page.addChild(new VideoComponent('Video Title', 'https://www.youtube.com/watch?v=m3DZsBw5bnE'));
     this.page.addChild(new NoteComponent('Note Title', "Don't forget to code your dream"));
     this.page.addChild(new TodoComponent('Todo Title', 'TypeScript Course!'));
-    this.page.addChild(new ImageComponent('Image Title', 'https://picsum.photos/800/400'));
-    this.page.addChild(new VideoComponent('Video Title', 'https://youtu.be/D7cwvvA7cP0'));
-    this.page.addChild(new NoteComponent('Note Title', "Don't forget to code your dream"));
-    this.page.addChild(new TodoComponent('Todo Title', 'TypeScript Course!'));
+    //this.page.addChild(new ImageComponent('Image Title', 'https://picsum.photos/800/400'));
+    //this.page.addChild(new VideoComponent('Video Title', 'https://youtu.be/D7cwvvA7cP0'));
+    //this.page.addChild(new NoteComponent('Note Title', "Don't forget to code your dream"));
+    //this.page.addChild(new TodoComponent('Todo Title', 'TypeScript Course!'));
 
         //this.element = ul
         //New PageComponent().attachTo(main) =  main.insertAdjacentElement(position, ul);

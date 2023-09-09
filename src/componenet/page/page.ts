@@ -21,7 +21,8 @@ export class PageItemComponent extends BaseComponent<HTMLElement> implements Sec
 
     private closeListener?: OnCloseListener;
     constructor() {
-        //텅텅빈 section 안에 image, note, todo, video 가 들어간다. 
+        
+        //section 안에 image, note, todo, video 가 들어간다. 
         super(`<li class="page-item">
     <section class="page-item_body">
     </section>
@@ -38,6 +39,7 @@ export class PageItemComponent extends BaseComponent<HTMLElement> implements Sec
             this.closeListener && this.closeListener();
         };
     }
+
 
     //외부에서 어떤 아이템을 전달하냐에 따라서 sectiond에 추가 됨.
     addChild(child: Component) {
